@@ -9,10 +9,9 @@ const App = () => {
         <div>
           <HeaderContainer />
         </div>
-        <a href='https://www.reactjs.org'>
+        <div>
             <CardContainer />
-        </a>
-      
+        </div>
     </div>
   );
 };

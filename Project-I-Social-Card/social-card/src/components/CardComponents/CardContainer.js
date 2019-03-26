@@ -8,7 +8,7 @@ const CardContainer = () => {
     
     return (
         <section>
-            <CardBanner />
+            <a href='http://reactjs.org' class='card-banner' target='_blank'><CardBanner /></a>
             <CardContent />
         </section>
     )

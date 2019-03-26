@@ -3,10 +3,10 @@
 
 header {
     display: flex;
-    width: 65%;
+    width: 55%;
     vertical-align: middle;
-    border: 1px solid red;
     padding: 10px 0 0 5px;
+    border: 1px solid black;
 }
 
 header p {

@@ -4,10 +4,8 @@ import './Button.css';
 const Clear = () => {
     
     return (
-        <div>clear</div>
+        <button>clear</button>
     );
-    
-    
 }
 
 export default Clear;

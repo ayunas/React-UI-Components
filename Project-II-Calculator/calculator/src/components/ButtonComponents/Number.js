@@ -5,16 +5,16 @@ const Number = () => {
     
     return (
         <div className = 'keypad'>
-            <div className='digit'>0</div>
-            <div className='digit'>1</div>
-            <div className='digit'>2</div>
-            <div className='digit'>3</div>
-            <div className='digit'>4</div>
-            <div className='digit'>5</div>
-            <div className='digit'>6</div>
-            <div className='digit'>7</div>
-            <div className='digit'>8</div>
-            <div className='digit'>9</div>
+            <button className='digit'>0</button>
+            <button className='digit'>1</button>
+            <button className='digit'>2</button>
+            <button className='digit'>3</button>
+            <button className='digit'>4</button>
+            <button className='digit'>5</button>
+            <button className='digit'>6</button>
+            <button className='digit'>7</button>
+            <button className='digit'>8</button>
+            <button className='digit'>9</button>
         </div>
     )
 }

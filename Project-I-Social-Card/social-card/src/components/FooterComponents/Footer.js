@@ -5,10 +5,12 @@ const Footer = () => {
     
     return (
         <footer>
-            <img class='chat' src='#'/>
-            <img class='retweet' src='#'/>
-            <img class='like' src='#'/>
-            <img class='message' src='#'/>
+            <div class='image'>
+                <img class='chat' src={require('./speech-bubble.png')}/>
+                <img class='retweet' src={require('./retweet.png')}/>
+                <img class='like' src={require('./like.png')}/>
+                <img class='message' src={require('./envelope.png')}/>
+            </div>
         </footer>
     )
     

@@ -4,7 +4,7 @@ import './Button.css';
 const Number = () => {
     
     return (
-        <div className = 'numbers'>
+        <div className = 'keypad'>
             <div className='digit'>0</div>
             <div className='digit'>1</div>
             <div className='digit'>2</div>

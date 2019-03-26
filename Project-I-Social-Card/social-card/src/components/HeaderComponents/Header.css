@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+
+div.thumbnail {
+    display:block;
+    background: crimson;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.thumbnail img {
+    width:50px;
+    height:50px;
+    color: white;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title {
+    display:inline-block;
+}
+
+.title h2 {
+    display: inline-block;
+}
+
+
+.thumbnail-wrapper {
+    display: inline-block;
+    height: 200px;
+    width: 60px;
+    border: 1px solid red;
+}
+
+
+

@@ -7,7 +7,7 @@ const Keypad = () => {
     
     return (
         <div id='keypad'>
-            {digits.map( digit => <button id={digit} className='digit'>{digit}</button>)}
+            {digits.map( digit => <button id={`number-${digit}`} className='digit'>{digit}</button>)}
         </div>
     );
 }

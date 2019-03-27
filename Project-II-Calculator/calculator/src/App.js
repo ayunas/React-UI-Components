@@ -13,11 +13,11 @@ const App = () => {
   return (
     <div id='calc'>
       <CalculatorDisplay/>
-      <div>
+      <div id='section-1'>
           <Clear />
           <Keypad />
       </div>
-      <div>
+      <div id='section-2'>
           <Divide />
           <Multiply />
           <Subtract />

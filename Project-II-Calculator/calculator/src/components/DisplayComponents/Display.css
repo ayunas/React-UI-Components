@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+#calc-display {
+    flex-basis: 450px;
+    align-self: flex-start;
+    background: black;
+    color: white;
+    font-size: 80px;
+    text-align: right;
+    vertical-align:middle;
+    padding: 20px;
+}

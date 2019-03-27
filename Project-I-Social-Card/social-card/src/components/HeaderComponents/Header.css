@@ -1,1 +1,55 @@
 /* All styles for your header Components live here */
+
+
+header {
+    display: flex;
+    width: 55%;
+    vertical-align: middle;
+    padding: 10px 0 0 5px;
+    border: 1px solid black;
+}
+
+header p {
+    width: 90%;
+    position: relative;
+    bottom: 20px;
+    margin-left: 10px;
+}
+
+div.thumbnail {
+    display:block;
+    background: crimson;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.thumbnail img {
+    position: relative;
+    top: 10px;
+    width:30px;
+    height:30px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.thumbnail-wrapper {
+    display: inline-block;
+    height: 100px;
+    width: 47px;
+    text-align: center;
+}
+
+.title h2 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top:5px;
+    font-size: 18px;
+}
+
+.title small {
+    margin: 10px;
+    color: lightgray;
+}

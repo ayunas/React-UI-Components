@@ -1,0 +1,30 @@
+#keypad {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+button {
+   width: 33%;
+   height: 93px;
+   font-size: 36px;    
+}
+
+.digit {
+    width: 33%;
+    font-weight: bolder;
+}
+
+#number-0 {
+    width: 100%;
+}
+
+#clearBtn {
+    width: 100%;
+}
+
+.math {
+    width: 100%;
+    background-color: #A0001E;
+    color: white;
+}

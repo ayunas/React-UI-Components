@@ -1,0 +1,22 @@
+#calc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    border: 1px solid black;
+    width: 450px;
+    height: 600px;
+    margin: 10px;
+}
+
+#section-1 {
+    flex-basis: 75%;
+/*    height: 78%;*/
+}
+
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-basis: 25%;
+}

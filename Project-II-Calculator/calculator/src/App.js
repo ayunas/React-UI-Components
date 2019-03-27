@@ -8,11 +8,12 @@ import Multiply from './components/ButtonComponents/Multiply.js';
 import Subtract from './components/ButtonComponents/Subtract.js';
 import Add from './components/ButtonComponents/Add.js';
 import Equal from './components/ButtonComponents/Equal.js';
+import NumberButton from './components/ButtonComponents/NumberButton.js';
 
 const App = () => {
   return (
     <div id='calc'>
-      <CalculatorDisplay/>
+      <CalculatorDisplay text='123'/>
       <div id='section-1'>
           <Clear />
           <Keypad />

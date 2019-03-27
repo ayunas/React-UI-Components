@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css'
+import './Button.css';
 
 const Divide = () => {
     
@@ -8,3 +8,5 @@ const Divide = () => {
     );
     
 }
+
+export default Divide;

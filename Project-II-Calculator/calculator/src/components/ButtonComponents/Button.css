@@ -1,8 +1,22 @@
 #keypad {
     display:flex;
     flex-wrap: wrap;
+    width: 73%;
+}
+
+
+.digit {
+    flex-basis: 33%;
+}
+
+#0 {
+    flex-basis: 100%;
 }
 
 button {
    width: 120px;
+}
+
+#clearBtn {
+    flex-basis: 73%;
 }

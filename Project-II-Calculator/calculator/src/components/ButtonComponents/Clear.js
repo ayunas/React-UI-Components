@@ -4,7 +4,7 @@ import './Button.css';
 const Clear = () => {
     
     return (
-        <button>clear</button>
+        <button id='clearBtn'>clear</button>
     );
 }
 

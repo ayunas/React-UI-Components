@@ -7,10 +7,12 @@
 button {
    width: 33%;
    height: 93px;
+   font-size: 36px;    
 }
 
 .digit {
     width: 33%;
+    font-weight: bolder;
 }
 
 #number-0 {
@@ -23,4 +25,6 @@ button {
 
 .math {
     width: 100%;
+    background-color: #A0001E;
+    color: white;
 }

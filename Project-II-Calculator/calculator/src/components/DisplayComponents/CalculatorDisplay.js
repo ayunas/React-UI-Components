@@ -5,7 +5,7 @@ const CalculatorDisplay = () => {
     
     return (
     
-        <div className='calc-display'>0</div>
+        <div id='calc-display'>0</div>
     
     );
     

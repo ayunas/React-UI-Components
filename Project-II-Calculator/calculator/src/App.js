@@ -11,7 +11,7 @@ import Equal from './components/ButtonComponents/Equal.js';
 
 const App = () => {
   return (
-    <div>
+    <div id='calc'>
       <CalculatorDisplay/>
       <Clear />
       <Divide />
@@ -20,7 +20,6 @@ const App = () => {
       <Subtract />
       <Add />
       <Equal />
-      
     </div>
   );
 };

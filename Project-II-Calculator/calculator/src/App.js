@@ -9,11 +9,13 @@ import Subtract from './components/ButtonComponents/Subtract.js';
 import Add from './components/ButtonComponents/Add.js';
 import Equal from './components/ButtonComponents/Equal.js';
 import NumberButton from './components/ButtonComponents/NumberButton.js';
+import ActionButton from './components/ButtonComponents/ActionButton.js';
+
 
 const App = () => {
   return (
     <div id='calc'>
-      <CalculatorDisplay text='123'/>
+      <CalculatorDisplay text='0'/>
       <div id='section-1'>
           <Clear />
           <Keypad />

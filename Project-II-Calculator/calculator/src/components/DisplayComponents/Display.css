@@ -3,12 +3,11 @@
 }
 
 #calc-display {
+    flex-basis: 450px;
     background: black;
     color: white;
-    height: 130px;
     font-size: 80px;
     text-align: right;
     vertical-align:middle;
-    padding-right: 10px;
-    padding-top: 20px;
+    padding: 20px;
 }

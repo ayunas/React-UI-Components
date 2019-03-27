@@ -1,5 +1,9 @@
 #calc {
-    border: 1px solid red;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    border: 1px solid black;
     width: 450px;
     height: 600px;
+    margin: 10px;
 }

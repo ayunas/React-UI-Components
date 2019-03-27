@@ -4,7 +4,7 @@ import './Button.css';
 const Equal = () => {
     
     return (
-        <button> = </button>
+        <button id='equal'> = </button>
     );
 }
 

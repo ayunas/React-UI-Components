@@ -13,13 +13,17 @@ const App = () => {
   return (
     <div id='calc'>
       <CalculatorDisplay/>
-      <Clear />
-      <Divide />
-      <Keypad />
-      <Multiply />
-      <Subtract />
-      <Add />
-      <Equal />
+      <div>
+          <Clear />
+          <Keypad />
+      </div>
+      <div>
+          <Divide />
+          <Multiply />
+          <Subtract />
+          <Add />
+          <Equal />
+      </div>
     </div>
   );
 };

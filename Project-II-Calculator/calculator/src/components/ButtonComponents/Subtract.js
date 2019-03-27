@@ -5,7 +5,7 @@ import './Button.css';
 const Subtract = () => {
     
     return (
-        <button> - </button>
+        <button id='subtract'> - </button>
     );
 }
 

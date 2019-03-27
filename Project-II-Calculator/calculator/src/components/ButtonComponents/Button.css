@@ -1,9 +1,12 @@
 #keypad {
     display:flex;
     flex-wrap: wrap;
-    width: 73%;
+    width: 75%;
 }
 
+button {
+   width: 25%;
+}
 
 .digit {
     flex-basis: 33%;
@@ -13,10 +16,12 @@
     flex-basis: 100%;
 }
 
-button {
-   width: 120px;
+#multiply {
+    
 }
 
+
+
 #clearBtn {
-    flex-basis: 73%;
+    flex-basis: 75%;
 }

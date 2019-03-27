@@ -4,6 +4,7 @@
 
 #calc-display {
     flex-basis: 450px;
+    align-self: flex-start;
     background: black;
     color: white;
     font-size: 80px;

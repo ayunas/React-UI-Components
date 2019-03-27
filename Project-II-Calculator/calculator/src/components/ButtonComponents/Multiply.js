@@ -5,7 +5,7 @@ const Multiply = () => {
     
     return (
         
-        <button>X</button>
+        <button id='multiply'>X</button>
     
     );
     

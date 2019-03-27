@@ -5,31 +5,19 @@
 }
 
 button {
-   flex-basis: 25%;
+   width: 33%;
 }
 
 .digit {
-    flex-basis: 33%;
+    width: 33%;
+    height: 91px;
 }
 
 #number-0 {
-    flex-basis: 100%;
-}
-
-#multiply {
-    
-}
-
-.section-1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.section-2 {
-    display: flex;
+    width: 100%;
 }
 
 #clearBtn {
     width: 100%;
+    height: 100px;
 }

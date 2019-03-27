@@ -4,7 +4,7 @@ import './Button.css';
 const Divide = () => {
     
     return (
-        <button id='divide'>/</button>
+        <button id='divide' className='math'>/</button>
     );
     
 }

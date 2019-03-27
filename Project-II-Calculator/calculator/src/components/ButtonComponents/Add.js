@@ -5,7 +5,7 @@ import './Button.css';
 const Add = () => {
     
     return (
-        <button id='add'> + </button>
+        <button id='add' className='math'> + </button>
     );
     
 }

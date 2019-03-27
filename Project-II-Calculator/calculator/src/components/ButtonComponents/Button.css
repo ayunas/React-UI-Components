@@ -6,11 +6,11 @@
 
 button {
    width: 33%;
+   height: 93px;
 }
 
 .digit {
     width: 33%;
-    height: 91px;
 }
 
 #number-0 {
@@ -19,5 +19,8 @@ button {
 
 #clearBtn {
     width: 100%;
-    height: 100px;
+}
+
+.math {
+    width: 100%;
 }
